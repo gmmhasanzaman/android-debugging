@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         int sum = 0;
 
         for (int i = 0; i <numbers.length; i++){
-            sum = numbers[i];
+            sum += numbers[i];
         }
 
         double result = (double)sum / numbers.length;
